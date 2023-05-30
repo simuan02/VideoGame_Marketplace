@@ -1,0 +1,1252 @@
+body{
+    margin: 0;
+    font-family: Georgia, Serif;
+    overflow: auto;
+}
+
+.logRegItem {
+    display: inline;
+    padding: 2px;
+    overflow: hidden;
+    background-color: black;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    border: 2px outset white;
+    font-size: 18pt;
+    cursor: pointer;
+    color: white;
+}
+
+.logRegItemVertical{
+    display: inline;
+    padding: 2px;
+    background-color: black;
+    margin: 0;
+    font-weight: bolder;
+    border: 2px outset white;
+    font-size: 15pt;
+    cursor: pointer;
+    color: white;
+    float: right;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.logRegList {
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+
+.logRegList2 {
+    list-style-type: none;
+    display: none;
+    width: 30%;
+    position: absolute;
+    left: 60%;
+    z-index: 2;
+}
+
+.logRegListVertical {
+    list-style-type: none;
+    display: none;
+    margin-left: -5.5%;
+    width: 100%;
+    padding: 0;
+}
+
+.logoImg {
+    max-width:250px;
+    height:50px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+header {
+    background-color: #dc3c4d;
+    color: white;
+    clear: right;
+    height: 80px;
+    max-width: 110%;
+    margin: 0;
+}
+h1.firsth1{
+    color: red;
+    font-family: serif;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+    text-align: center;
+}
+a.logRegAnchor{
+    text-decoration: none;
+    color: white;
+}
+a.logRegAnchor:hover{
+    color: red;
+}
+.logRegItem:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: red;
+}
+
+label.logLabel {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 18pt;
+    font-family: Serif;
+}
+
+.logInput {
+    display: block;
+    text-align: center;
+    font-size: 18pt;
+    margin: auto;
+}
+
+#logSubmit {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: red;
+    border: 2px inset gray;
+    text-align: center;
+    font-size: 22pt;
+    display: block;
+}
+
+#logSubmit:hover{
+    color:red;
+    background-color: black;
+    cursor: pointer;
+}
+
+#logSubmit2 {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+    color: white;
+    background-color: red;
+    border: 2px inset gray;
+    text-align: center;
+    font-size: 22pt;
+}
+
+#logSubmit2:hover{
+    color:red;
+    background-color: black;
+    cursor: pointer;
+}
+
+.regP {
+    margin: auto;
+    text-align: center;
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+.RegAnchor {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    text-shadow: 1px 1px gray;
+}
+
+h2.h2class {
+    font-size: 20pt;
+    color: gray;
+    text-shadow: 1px 1px red;
+    text-align: center;
+}
+
+#passCheck {
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#password2 {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+label.passLabel {
+    font-size: 18pt;
+    width:150%;
+}
+
+.loginIcon {
+    max-width: 20px;
+    max-height: 20px;
+    margin-bottom: 0;
+}
+
+#prodotto {
+    font-size: 18pt;
+    max-width: 650px;
+    width: 60%;
+    padding: 2pt;
+    position: relative;
+    top: -11.5px;
+}
+
+#formRicerca1 {
+    display: inline;
+    margin-bottom: 0px;
+}
+
+#divRicerca {
+    text-align: center;
+    min-width: 150px;
+}
+
+#submitForm1 {
+    background-image: url("lenteIcon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#advancedSearch {
+    background-color: red;
+    color: white;
+    font-family: Arial Serif;
+    border: 1px solid black;
+    width: 25%;
+    max-width: 600px;
+    min-width: 140px;
+    text-align: center;
+    margin: 0 0 0 3px;
+    display: inline;
+    font-weight: bolder;
+    font-size: 15pt;
+    position: relative;
+    float: left;
+    padding-bottom: 0;
+}
+
+#advancedSearch2{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#UpDownArrowLeft {
+    float: left;
+    width: 25%;
+    margin: 10px 0px 0px 2px;
+    vertical-align: middle;
+}
+
+#UpDownArrowRight{
+    float: right;
+    width: 25%;
+    margin: 10px 2px 0px 0;
+    vertical-align: middle;
+}
+
+#advancedSearchHeader {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    display: inline;
+}
+
+#corpo{
+    max-width: 1400px;
+    width:71%;
+    float: right;
+    margin-top: 0px;
+}
+
+#advancedSearchParameter {
+    padding-top: 10px;
+    width: 96%;
+    font-size: 13pt;
+    padding-left: 1px;
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+#advancedSearchParameter > li {
+    margin-right: 2px;
+    padding-right: 0px;
+}
+
+.Prices {
+    display: inline;
+    width: 20%;
+}
+
+#PricesSpan {
+    font-size: 13pt;
+}
+
+#password3 {
+    font-size: 18pt;
+}
+
+.profileItem {
+    display: inline;
+    vertical-align: middle;
+    margin: 0 0 1% 0;
+    font-weight: bolder;
+    font-size: 18pt;
+    cursor: pointer;
+    color: white;
+    height: 80px;
+}
+
+.profileItemVertical {
+    display: inline;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-left: 0;
+    font-weight: bolder;
+    font-size: 15pt;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    height: 50px;
+    background-color: black;
+    clear: both;
+    float: right;
+    padding: 2px;
+    border: 2px outset white;
+    width: 100%;
+    text-align: center;
+}
+
+.profileName{
+    display: none;
+    float: right;
+    margin-right: 40%;
+}
+
+.logRegItemVertical:hover {
+    color: red;
+    background-color: white;
+}
+
+.profileItemVertical:hover {
+    background-color: white;
+}
+
+.cartImg {
+    max-width:40px;
+    height:30px;
+    margin-right: 5px;
+    background-color: white;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.cartprofileAnchor {
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    list-style-type: none;
+    margin-right: 5%;
+    font-weight: bolder;
+    max-width: 1400px;
+    width: 90%;
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 0;
+    float: left;
+    font-size: 14pt;
+}
+
+#menu li{
+    width: 16%;
+    float: left;
+    background-color: red;
+    margin: 2px 0 2px 1%;
+    padding: 3%;
+    text-align: center;
+    border: 2px outset black;
+}
+
+#menu li a {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#menu li:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#menu .submenu{
+    display: none;
+    list-style-type: none;
+    color: white;
+    font-weight: bolder;
+    list-style-position: outside;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 5%;
+}
+
+#menu .submenu li {
+    display: block;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 90%;
+    clear: both;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10% 8%;
+    margin-left: 0;
+}
+
+#ImageDiv {
+    background-image: url("../images/granTurismo7.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 75%;
+    max-width: 1500px;
+    height: 450px;
+    display: block;
+    margin: 0px auto 0px auto;
+    clear: both;
+}
+
+#ImageDescription{
+    font-size: 16pt;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+    width: 75%;
+    max-width: 1400px;
+    background-color: red;
+    margin: 0 auto 20px auto;
+}
+
+#imgBefore {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: inline;
+    float: left;
+    cursor: pointer;
+}
+
+#imgAfter {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ImgRicerca {
+    width: 95%;
+    height: 25%;
+    vertical-align: top;
+    display: block;
+    margin: 10px auto 5px auto;
+    background-color: lightgray;
+}
+
+#ClearLine {
+    clear: both;
+}
+
+#RisultatiRicerca {
+    width: 26%;
+    max-width: 600px;
+    text-align: center;
+    border: 1px outset lightgray;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    font-size: 16pt;
+}
+
+#prodottoAnchor {
+    color: black;
+    text-decoration: none;
+}
+
+#prodottoAnchor:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#ImgContainer {
+    float: left;
+    margin: 3% 2% 2% 10%;
+    width: 35%;
+    max-width: 650px;
+    height: 65%;
+}
+
+#FirstImgContainer {
+    padding: 0;
+    width: 100%;
+    height: 65%;
+    margin: 0 0 20px 0;
+    border: 1px solid black;
+}
+
+#FirstImg {
+    width: 100%;
+    height: 100%;
+}
+
+.OtherImgContainer {
+    margin: 10px 0 10px 5%;
+    float: left;
+    width: 27%;
+    height: 20%;
+    border: 2px solid black;
+    background-color: lightgray;
+    max-width: 200px;
+}
+
+.OtherImgContainer:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.OtherImg {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#ProductDescription {
+    float: left;
+    margin: 3% 2% 0 5%;
+    border-left: 2px solid lightgray;
+    width: 39%;
+    font-family: Arial, sans-serif;
+}
+
+#ProductDescription > h2{
+    padding-left: 3%;
+    margin: 0 0 1% 1%;
+    font-size: 25pt;
+}
+
+#ProductDescription > p{
+    padding-left: 5%;
+    margin: 0 0 1% 1%;
+    font-size: 16pt;
+}
+
+#ProductDescription > h3 {
+    padding-left: 5%;
+    margin: 0 0 1% 1%;
+    font-size: 19pt;
+}
+
+#AggiungiAlCarrello {
+    padding: 2px;
+    width: 42%;
+    max-width: 450px;
+    background-color: black;
+    font-weight: bolder;
+    border: 2px outset white;
+    font-size: 15pt;
+    cursor: pointer;
+    color: white;
+    margin: auto auto auto 5%;
+    height: 50px;
+    float: left;
+    vertical-align: middle;
+}
+
+#AggiungiAlCarrello:hover {
+    color: red;
+    background-color: white;
+    border: 2px outset red;
+}
+
+#addCart{
+    float: left;
+    display: block;
+}
+
+#CartLabel {
+    float: left;
+    width: 70%;
+    margin: 2% 0 2% 1%;
+}
+
+#ScegliQuantita {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    font-size: 17pt;
+}
+
+#ProdottoNonDisponibileP {
+    text-align: center;
+    margin: 10px auto auto auto;
+    font-size: 19pt;
+    color: red;
+    font-weight: bolder;
+    font-family: Arial sans-serif;
+}
+
+#Carrello {
+    width: 95%;
+    margin: 2%;
+    vertical-align: middle;
+    border-width: 0px;
+    border-collapse: collapse;
+    clear: both;
+}
+
+.ProdottoCarrello {
+    margin: auto 5% 2%;
+    height: 25%;
+    border-top: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+.ImmagineProdotto {
+    margin: auto;
+    width: 120px;
+    height: 80px;
+    display: block;
+    float: left;
+}
+
+#CarrelloTitle {
+    font-weight: bolder;
+    text-shadow: 1px 1px red;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding-top: 0;
+}
+
+#CarrelloHeader {
+    margin: auto 5% 2%;
+    width: 90%;
+    border-bottom: 2px solid lightgray;
+}
+
+.InformationColumn {
+    color: gray;
+    width: 10%;
+    text-align: center;
+    border-width: 0;
+}
+
+.DescriptionColumn {
+    width: 50%;
+    text-align: center;
+    border-width: 0;
+}
+
+.ImgColumn {
+    width: 20%;
+    text-align: center;
+    border-width: 0;
+    padding-top: 1%;
+}
+
+td.InformationColumn {
+    color: black;
+}
+
+.AnchorCart {
+    color: black;
+    text-decoration: none;
+}
+
+.AnchorCart:hover {
+    color: red;
+}
+
+#TotalPrice {
+    float: right;
+    margin-right: 7%;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    display: inline;
+    padding: 1.5%;
+}
+
+#CarrelloVuoto2 {
+    margin-left: 2%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.croceRimozioneProdotto {
+    display: block;
+    float: left;
+    width: 10%;
+    height: 10%;
+    vertical-align: top;
+    margin: 2% 5% 0 0;
+    cursor: pointer;
+}
+
+.TornaIndietro {
+    float: left;
+    margin-bottom: 6%;
+    margin-left: 2%;
+    height: 10%;
+    clear: both;
+}
+
+#imgTornaIndietro{
+    float: left;
+    width: 10%;
+    height: 95%;
+    vertical-align: middle;
+}
+
+#pTornaIndietro {
+    float: left;
+    color: red;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+#SvuotaCarrelloAndEffettuaOrdine {
+    margin: auto;
+    text-align: center;
+    clear: both;
+}
+
+#RiepilogoOrdine {
+    text-decoration: none;
+}
+
+.ButtonCart {
+    display: inline;
+    padding: 2px;
+    background-color: black;
+    font-weight: bolder;
+    border: 2px outset white;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.ButtonCart:hover {
+    background-color: white;
+    color: red;
+}
+
+#PrezzoAttualeAndSymbol {
+    color: red;
+    font-weight: bolder;
+}
+
+#DatiUtente {
+    margin-left: 3%;
+    font-family: Arial sans-serif;
+    font-size: 17pt;
+}
+
+#ControlloUser {
+    display: none;
+    border: 1px solid black;
+    color: green;
+}
+
+.BottoniAnagrafici {
+    margin-left: 3%;
+}
+
+.UserInput {
+    display: none;
+}
+
+#salvaDatiAnagraficiButton {
+    display: none;
+}
+
+#RicaricaPrelevaAccount {
+    display: none;
+    font-family: Arial sans-serif;
+    font-size: 17pt;
+}
+
+.UserCredit {
+    margin-left: 3%;
+    font-family: Arial sans-serif;
+    font-size: 17pt;
+}
+
+.CreditoHeader {
+    font-weight: bolder;
+    font-size: 22pt;
+}
+
+.RicaricaPrelevaDiv {
+    margin-left: 3%;
+    display: none;
+}
+
+#ServicesDiv {
+    margin: 3% auto 2.5% auto;
+    clear: both;
+    width: 97%;
+    height: 640px;
+}
+
+#ServicesDiv > ul {
+    list-style-type: none;
+}
+
+.Services {
+    width: 30%;
+    float: left;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-family: Arial sans-serif;
+    overflow: auto;
+    height: 550px;
+    margin: 0;
+    display: block;
+}
+
+.ServicesImage {
+    width: 40%;
+    height: 100px;
+    display: block;
+    clear: both;
+    margin: auto auto 1% auto;
+}
+
+.BorderService {
+    border-right: 1px solid grey;
+}
+
+.Services > h2 {
+    font-weight: bolder;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.Services > p {
+    font-size: 14pt;
+    color: grey;
+}
+
+#PagineOrdine {
+    clear: both;
+    list-style-type: none;
+}
+
+.NumeroPaginaOrdine {
+    border-radius: 15px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 18pt;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#Numero1 {
+    background-color: white;
+    color: red;
+    border-style: outset;
+}
+
+.NumeroPaginaOrdine:hover {
+    background-color: red !important;
+    color: black !important;
+}
+
+#RiepilogoOrdine {
+    text-decoration: none;
+}
+
+#EffettuaOrdine2 {
+    margin: auto;
+    clear: both;
+    text-align: center;
+    display: block;
+}
+
+#DettagliSpedizione {
+    clear: both;
+    display: none;
+    margin-left: 3%;
+}
+
+#ImageOrder {
+    width: 3%;
+    height: 5%;
+    float: left;
+    margin-right: 2%;
+}
+
+#DettagliOrdine {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+#ElencoArticoliOrdinatiTitle {
+    font-size: 22pt;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    clear: both;
+}
+
+.IndexP {
+    clear: both;
+    margin-left: 2%;
+}
+
+#ProfileMenuContainer {
+    width: 20%;
+    background-color: gray;
+    color: white;
+    border-right: 2px solid black;
+    margin: 0 0 0 1%;
+    padding-top: 0px;
+    float: left;
+    border-bottom: 1px solid black;
+}
+
+#ProfileMenu {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20pt;
+    font-family: Arial sans-serif;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+
+.ProfileSelector {
+    border-top: 1px solid black;
+    width: 96.5%;
+    margin-right: 0px;
+    padding: 2%;
+}
+
+.ProfileSelector:hover {
+    background-color: red;
+    font-weight: bolder;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ActiveSelector{
+    border-top: 1px solid black;
+    border-collapse: collapse;
+    background-color: black !important;
+    color: white;
+}
+
+#ProfileInfo {
+    width: 77%;
+    margin: 0 0 2% 0;
+    padding-left: 1%;
+    border-collapse: collapse;
+    float: right;
+    font-family: Arial sans-serif;
+    overflow: auto;
+}
+
+.Ordine {
+    width: 95%;
+    text-align: center;
+    margin-bottom: 1%;
+    border: 1px outset black;
+    background-color: grey;
+    color: white;
+    display: none;
+    padding-top: 1%;
+    padding-bottom: 0;
+    font-weight: bolder;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#OrdineDiv{
+    margin-left: 2%;
+    display: none;
+}
+
+.DettagliOrdine2 {
+    padding-top: 3%;
+    display: none;
+    cursor: auto;
+    clear: left;
+    color: black;
+    text-align: left;
+    height: 240px;
+    background-color: white;
+    border-top: 1px outset black;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 2%;
+}
+
+
+.ProdottoOrdine {
+    margin: 0 5% 0 5%;
+    height: 60px;
+    border-top: 1px solid lightgray;
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.CancellaOrdine {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 0%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.ModificaOrdine {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 0%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.GestioneDiv {
+    display: none;
+    margin-left: 5%;
+}
+
+.DivTitle {
+    font-size: 22pt;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+.ButtonAdmin {
+    margin-top: 2%;
+    width: 220px;
+}
+
+.InputLabel {
+    display: inline;
+    margin-top: 1%;
+}
+
+.SelectAdmin {
+    clear: both;
+    display: block;
+}
+
+.profileName2 {
+    display: none;
+}
+
+.profileName {
+    display: none !important;
+}
+
+@media screen and (max-width: 1000px){
+    #ImageDiv {
+        height: 300px;
+    }
+    #ImageDescription {
+        font-size: 14pt;
+    }
+    .Services {
+        width: 90%;
+        clear: both;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        height: auto;
+    }
+    .BorderService {
+        border-right: 0;
+        border-bottom: 1px solid grey;
+    }
+    .PriceSpan {
+        display: block;
+        clear: both;
+    }
+    #RisultatiRicerca {
+        width: 40%;
+    }
+    .ImgRicerca {
+        height: 20%;
+    }
+    .cartAnchorWidth1000:hover {
+        color: red !important;
+    }
+    .logRegList{
+        display: none;
+    }
+    .logRegList2{
+        display: inline;
+    }
+    .ReservedArea{
+        clear: both;
+        text-align: center;
+        margin-bottom: 0;
+        width: 100%;
+        float: right;
+        font-size: 15pt;
+    }
+
+    .profileName2{
+        display: inline;
+        margin-left: 15%;
+    }
+
+    #ProductDescription > p{
+        font-size: 14pt;
+    }
+
+    #ProductDescription > h3 {
+        font-size: 17pt;
+    }
+
+    #ProductDescription > h2 {
+        font-size: 22pt;
+    }
+    #CartLabel {
+        font-size: 14pt;
+    }
+    #AggiungiAlCarrello {
+        width: 70%;
+    }
+    #passCheck {
+        display: block;
+        width: 50%;
+        margin: 1% auto auto auto;
+    }
+    #ProfileMenuContainer {
+        width: 30%;
+    }
+    #ProfileMenu {
+        font-size: 17pt;
+    }
+    #ProfileInfo {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .profileItemVertical{
+        height: 60px;
+    }
+
+    #advancedSearch {
+        clear: both;
+        width: 95%;
+        margin: 1% 2.5% 3% 2.5%;
+    }
+    #divRicerca {
+        clear: both;
+        width: 95%;
+        margin: 2% 2.5%;
+    }
+    #formRicerca1 {
+        display: block;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    #corpo {
+        width: 95%;
+        margin: auto;
+    }
+    #menu {
+        display: none;
+    }
+    .profileName{
+        display: inline !important;
+        margin-right: 0;
+    }
+    .profileName2{
+        display: none !important;
+    }
+    #RisultatiRicerca {
+        width: 90%;
+        clear: both;
+    }
+    .ImgRicerca {
+        height: 25%;
+    }
+    #CartLabel {
+        display: none;
+    }
+    #AggiungiAlCarrello {
+        width: 30%;
+    }
+    #ImgContainer {
+        height: 40%;
+        width: 30%;
+    }
+    #ProductDescription {
+        width: 45%;
+    }
+    .SinglePriceColumn{
+        display: none;
+    }
+    .ArticlesColumn{
+        margin-right: 2%;
+    }
+    .DescriptionColumn {
+        width: 62%;
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+    .ImgColumn {
+        width: 15%;
+    }
+    .ProfileHeader {
+        font-size: 18pt;
+    }
+    .RicaricaPrelevaInput{
+        width: 50%;
+    }
+    #ProfileMenuContainer {
+        width: 40%;
+        margin-bottom: 2%;
+    }
+    #ProfileInfo {
+        width: 57%;
+    }
+    .ImmagineProdotto {
+        width: 80px;
+    }
+    th.InformationColumn {
+        font-size: 9pt;
+    }
+}
